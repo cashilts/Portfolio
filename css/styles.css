@@ -1,9 +1,12 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	background-color: #e5eae6;
 }
 
 #header-nav{
 	border-radius: 0;
+	border-color: #797b66;
+	background-color: #abb8a8;
 }
 
 li{
@@ -18,14 +21,17 @@ small{
 	font-size: 2em;
 }
 
+#contactArea{
+	height: 30px;
+	background-color: #abb8a8;
+	border: 1px solid #797b66;
+	margin-top: 10px;
+}
+
 p{
 	text-indent: 2em;
 }
 
-p>a{
-	color:black;
-}
-p > a:hover{
-	color: black;
-	text-decoration: none;
+a{
+	color:#5066bd;
 }
