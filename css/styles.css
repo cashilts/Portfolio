@@ -1,0 +1,23 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#header-nav{
+	border-radius: 0;
+}
+
+li{
+	margin: 10px 7px 7px 5px;
+}
+
+small{
+	font-size: .5em;
+}
+
+#title{
+	font-size: 2em;
+}
+
+p{
+	text-indent: 2em;
+}
