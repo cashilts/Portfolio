@@ -21,3 +21,11 @@ small{
 p{
 	text-indent: 2em;
 }
+
+p>a{
+	color:black;
+}
+p > a:hover{
+	color: black;
+	text-decoration: none;
+}
