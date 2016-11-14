@@ -16,12 +16,22 @@ body{
 .panel-heading a:after {
     font-family:'Glyphicons Halflings';
     content:"\e114";
-    float: right;
+    float:right;
     color: grey;
+    position:relative;
+    bottom: 15px;
 }
 
 .panel-heading a.collapsed:after {
     content:"\e080";
+    position:relative;
+    bottom: 15px;
+}
+
+.panel-heading a{
+	text-decoration: none;
+	color: inherit;
+	
 }
 
 #header-nav{

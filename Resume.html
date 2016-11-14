@@ -1,84 +1,136 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Christopher's Resume</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	</head>
-	<body>
-		<header>
-			<nav id="header-nav" class="navbar navbar-default">
-				<div class="container-fluid pull-left">
-					<div class="navbar-header">
-						<a id="title" class="navbar-brand" href="index.html">Christopher&nbspHilts <small>Full&nbspstack&nbspdeveloper</small></a>
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+	<title>Christopher's Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container-fluid pull-left">
+				<div class="navbar-header">
+					<a id="title" class="navbar-brand" href="index.html">Christopher&nbspHilts <small>Full&nbspstack&nbspdeveloper</small></a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</div>
+			<div class="container-fluid pull-left">
+				<ul id="collapsable-nav" class="nav navbar-nav navbar-right">
+					<li><a href="index.html"><span class="glyphicon glyphicon-home "></span> About</a></li>
+					<li><a href="Resume.html"><span class="glyphicon glyphicon-inbox"></span> Resume</a></li>
+					<li><a href="Projects.html"><span class="glyphicon glyphicon-folder-open"> Projects</span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+						<h4 class="panel-title">
+							<a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								<div>
+									Experience
+								</div>
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+							<ul>
+								<li>
+									Game Jam Fall 2016 
+								</li>
+								<li>
+									Eng Hack Spring 2016
+								</li>
+								<li>
+									Game Jam Spring 2016
+								</li>
+								<li>
+									Game Jam Fall 2016
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="container-fluid pull-left">
-					<ul id="collapsable-nav" class="nav navbar-nav navbar-right">
-						<li><a href="index.html"><span class="glyphicon glyphicon-home "></span> About</a></li>
-						<li><a href="Resume.html"><span class="glyphicon glyphicon-inbox"></span> Resume</a></li>
-						<li><a href="Projects.html"><span class="glyphicon glyphicon-folder-open"> Projects</span></a></li>
-					</ul>
+			</div>
+			<div class="col-lg-4 col-md-6">
+			<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">	
+						<h4 class="panel-title"> 
+							<a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								<div>
+									Skills
+								</div>
+							</a>
+						</h4>
+
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="panel-body">
+							<ul>
+								<li>
+									Basic web design with HTML, CSS and JS
+								</li>
+								<li>
+									Writing GLSL shader programs
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
-			</nav>
-	</header>
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Experience
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-      Put experience here
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Skills
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Put skills here
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+			</div>
+			<div class="col-lg-4 col-md-12">
+			<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingThree">
+				<h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						<div>
+							References
+						</div>
+
+					</a>
+				</h4>
+			</div>
+			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				<div class="panel-body">
+					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				</div>
+			</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="contactArea">
+		<div>
+			Email: <a href="mailto:christopherhilts@gmail.com">christopherhilts@gmail.com</a> 
+		</div>
+		<div>
+			Alt: <a href="mailto:chilts@uwaterloo.ca">	chilts@uwaterloo.ca</a>
+		</div>
+		<div>	
+			Phone:&nbsp;<a href="tel:1-306-741-4518">	1-306-741-4518</a>
+		</div>
+		<div>
+			Github:&nbsp;<a href="https://github.com/cashilts">https://github.com/cashilts</a>
+		</div>
+	</div>	
+</body>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-	</body>
-</html>
+	
+	</html>				
+
