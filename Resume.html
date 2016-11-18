@@ -27,17 +27,7 @@
 			<div class="container-fluid pull-left">
 				<ul id="collapsable-nav" class="nav navbar-nav navbar-right">
 					<li><a href="index.html"><span class="glyphicon glyphicon-home "></span> About</a></li>
-					<li><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded " false> <span class="glyphicon glyphicon-inbox"></span> Resume<span class="caret"></span></a><ul class="dropdown-menu">
-						<li>
-							<a data-toggle="collapse" href="Resume.html#collapseOne">Experience</a>
-						</li>
-						<li>
-							<a data-toggle="collapse" href="Resume.html#collapseTwo">Skills</a>
-						</li>
-						<li>
-							<a data-toggle="collapse" href="Resume.html#collapseThree">References</a>
-						</li>
-					</ul></li>
+					<li><a href="Resume.html"> <span class="glyphicon glyphicon-inbox"></span> Resume</a></li>
 					<li><a href="Projects.html"><span class="glyphicon glyphicon-folder-open"> Projects</span></a></li>
 
 				</ul>
@@ -52,7 +42,7 @@
 						<h4 class="panel-title">
 							<a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 								<div>
-									Experience
+									Software Experience
 								</div>
 							</a>
 						</h4>
@@ -89,7 +79,7 @@
 						<h4 class="panel-title"> 
 							<a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 								<div>
-									Skills
+									Software Skills
 								</div>
 							</a>
 						</h4>
@@ -127,11 +117,39 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-12">
+			<div class="col-lg-4 col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								<div>
+									Other Experience / Other Skills
+								</div>
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					<div class="panel-body">
+					<ul>
+						<li>
+							Coversational knowledge of the Japanese language, studied for 4 years
+						</li>
+						<li>
+							One of four Canadian students accepted on YES Canada's Japanese exchange student program 2014 
+						</li>
+						<li>
+							5 years work experience outside of software
+						</li>
+					</ul>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-6">
 			<div class="panel panel-default">
-			<div class="panel-heading" role="tab" id="headingThree">
+			<div class="panel-heading" role="tab" id="headingFour">
 				<h4 class="panel-title">
-					<a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					<a class="collapsed" role="button" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 						<div>
 							References
 						</div>
@@ -139,9 +157,8 @@
 					</a>
 				</h4>
 			</div>
-			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 				<div class="panel-body">
-					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 				</div>
 			</div>
 			</div>
@@ -165,14 +182,7 @@
 </body>
 		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript">
-    	function loadPage(){
-    		if(window.location.href.indexOf("#collapseOne") > -1){
-    			$('#collapseOne').collapse({
-  toggle: true}) 
-    		}
-    		}
-</script>
+	
 
 	
 	</html>				
