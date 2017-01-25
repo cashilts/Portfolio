@@ -1,16 +1,55 @@
 
+
+#rounded-img{
+	border-radius: 25px;
+}
+
+#header-nav{
+	border-color: #D1D5D1;
+	border-radius: 5px;
+	border-width: 2px;
+	
+
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+}
+
+.navbar-default .navbar-header .navbar-brand{
+	text-transform: uppercase;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+	font-weight: 700;
+	color: rgba(0,0,0,0.6);
+	font-size: 2em
+}
+
+#collapsable-nav li a{
+	color: rgba(0,0,0,0.6);
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+#collapsable-nav li a:hover{
+	color: rgba(255,255,255,0.4);
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+
+
 	#contactArea{
 		float:none;
 		margin-top: 10px;
-		background-color: #abb8a8;
-		border: 1px solid #797b66;
 		text-align: center;
 	}
 
 
 body{
 	font-family: 'Roboto', sans-serif;
-	background-color: #e5eae6;
+	background-color: #ECE9E6 ;
+	color: #333
 }
 
 .panel-heading a:after {
@@ -34,12 +73,6 @@ body{
 	
 }
 
-#header-nav{
-	border-radius: 0;
-	border-color: #797b66;
-	background-color: #abb8a8;
-}
-
 li{
 	margin: 10px 7px 7px 5px;
 }
@@ -48,10 +81,6 @@ small{
 	font-size: .5em;
 }
 
-#title{
-	font-size: 2.5em;
-	color:#2a211a;
-}
 
 
 
