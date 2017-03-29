@@ -1,4 +1,8 @@
 
+.carousel-inner > .item > img{
+	width:640px;
+	height:360px;
+}
 
 #rounded-img{
 	border-radius: 25px;
@@ -73,10 +77,7 @@ body{
 	
 }
 
-.carousel-inner > .item > img{
-	width:640px;
-	height:360px;
-}
+
 
 li{
 	margin: 10px 7px 7px 5px;
